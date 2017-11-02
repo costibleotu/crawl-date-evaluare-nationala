@@ -32,7 +32,7 @@ CSV_DELIMITER = ';'
 CSV_QUOTECHAR = '"'
 
 
-CSV_FIELDS_TO_EXPORT = ['an','judet','nume','url','pozitia_pe_tara','unitate_de_invatamant','lb_romana_nota','lb_romana_contestatie','lb_romana_final','matematica_nota','matematica_contestatie','matematica_final','lb_materna','lb_materna_nota','lb_materna_contestatie','lb_materna_final','media']
+CSV_FIELDS_TO_EXPORT = ['nume','scoala_de_provenienta','judet','media_la_admitere','media_en_tsu','media_de_absolvire','nota_lb_romana','nota_matematica','optiunea_3','nota_optiunea_3','limba_materna','nota_lb_materna','liceu_repartizat','tip_liceu','specializare','specializare_lb']
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
