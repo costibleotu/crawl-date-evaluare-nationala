@@ -31,8 +31,10 @@ FEED_FORMAT = 'csv'
 CSV_DELIMITER = ';'
 CSV_QUOTECHAR = '"'
 
+# ADMITERE FIELDS
+# CSV_FIELDS_TO_EXPORT = ['nume','scoala_de_provenienta','judet','media_la_admitere','media_en_tsu','media_de_absolvire','nota_lb_romana','nota_matematica','optiunea_3','nota_optiunea_3','limba_materna','nota_lb_materna','liceu_repartizat','tip_liceu','specializare','specializare_lb']
 
-CSV_FIELDS_TO_EXPORT = ['nume','scoala_de_provenienta','judet','media_la_admitere','media_en_tsu','media_de_absolvire','nota_lb_romana','nota_matematica','optiunea_3','nota_optiunea_3','limba_materna','nota_lb_materna','liceu_repartizat','tip_liceu','specializare','specializare_lb']
+CSV_FIELDS_TO_EXPORT = ['an','judet','nume','url','pozitia_pe_tara','unitate_de_invatamant','lb_romana_nota','lb_romana_contestatie','lb_romana_final','matematica_nota','matematica_contestatie','matematica_final','lb_materna','lb_materna_nota','lb_materna_contestatie','lb_materna_final','media']
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -40,7 +42,7 @@ CSV_FIELDS_TO_EXPORT = ['nume','scoala_de_provenienta','judet','media_la_admiter
 # Configure a delay for requests for the same website (default: 0)
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-#DOWNLOAD_DELAY = 3
+# DOWNLOAD_DELAY = 0.5
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16
